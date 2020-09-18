@@ -2686,3 +2686,19 @@ section {
 .not_btn:hover {
     color: #fff;
 }
+
+.slid-bg img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+  img {
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
+   
+  img[data-src] {
+    opacity: 0;
+  }

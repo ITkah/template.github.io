@@ -10,7 +10,7 @@
     <!-- Plugins CSS -->
     <link href="css/plugins.css" rel="stylesheet" rel="preload">
     <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" rel="preload">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 </head>
@@ -28,14 +28,14 @@
                 <div class="row">
                     <div class="col-lg-3 d-none d-lg-block">
                         <div class="logo">
-                            <a href="index.html"><img src="images/logo.png" alt=""></a>
+                            <a href="index.html"><img data-src="images/logo.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-9">
                         <div class="row">
                             <div class="col-sm-4 px-1">
                                 <div class="header-contact-info-box d-flex">
-                                    <img src="images/mail.svg" alt="mail">
+                                    <img data-src="images/mail.svg" alt="mail">
                                     <div class="header-contact-info">
                                         <a href="#">3720508@bk.ru</a>
                                     </div>
@@ -43,7 +43,7 @@
                             </div>
                             <div class="col-sm-4 px-1">
                                 <div class="header-contact-info-box d-flex">
-                                    <img src="images/time-work.svg" class="icon_head_time" alt="time">
+                                    <img data-src="images/time-work.svg" class="icon_head_time" alt="time">
                                     <div class="header-contact-info">
                                         <h6>ПН-ПТ: 08:00-17:00</h6>
                                         <p>СБ-ВС: Выходной</p>
@@ -52,7 +52,7 @@
                             </div>
                             <div class="col-sm-4 px-1">
                                 <div class="header-contact-info-box d-flex">
-                                    <img src="images/phones.svg" class="icon_head" alt="phones">
+                                    <img data-src="images/phones.svg" class="icon_head" alt="phones">
                                     <div class="header-contact-info head_phone">
                                         <a href="#">8 (343) 372 05 08</a>
                                     </div>
@@ -68,7 +68,7 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-12 col-lg-12">
                         <div class="logo d-inline-block d-lg-none">
-                            <a href="#"><img src="images/logo.png" alt=""></a>
+                            <a href="#"><img data-src="images/logo.png" alt=""></a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_menu" aria-controls="main_menu" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span> </button>
                         </div>
                         <div class="main-menu">
@@ -94,7 +94,9 @@
         <div id="sb-slider-area" class="sb-slider-area slider-area-bg">
             <div class="sb-main-slider owl-carousel owl-theme">
                 <div class="sb-single-slider">
-                    <div class="slid-bg slid-bg-1"></div>
+                    <div class="slid-bg">
+                        <img data-src="images/how-bg.png" alt="slide">
+                    </div>
                     <div class="sb-single-table">
                         <div class="sb-single-tablecell">
                             <div class="container">
@@ -113,7 +115,9 @@
                     </div>
                 </div>
                 <div class="sb-single-slider">
-                    <div class="slid-bg slid-bg-2"></div>
+                    <div class="slid-bg">
+                        <img data-src="images/how-bg.png" alt="slide">
+                    </div>
                     <div class="sb-single-table">
                         <div class="sb-single-tablecell">
                             <div class="container">
@@ -132,7 +136,9 @@
                     </div>
                 </div>
                 <div class="sb-single-slider">
-                    <div class="slid-bg slid-bg-3"></div>
+                    <div class="slid-bg">
+                        <img data-src="images/how-bg.png" alt="slide">
+                    </div>
                     <div class="sb-single-table">
                         <div class="sb-single-tablecell">
                             <div class="container">
@@ -171,7 +177,7 @@
                     <!-- Signle Feature Box Start-->
                     <div class="single-feature-box">
                         <div class="feature-icon">
-                            <img src="images/car.svg" alt="car">
+                            <img data-src="images/car.svg" alt="car">
                         </div>
                         <div class="feature-content">
                             <h4>Спецтехника</h4>
@@ -184,7 +190,7 @@
                     <!-- Signle Feature Box Start-->
                     <div class="single-feature-box">
                         <div class="feature-icon">
-                            <img src="images/spec.svg" alt="spec">
+                            <img data-src="images/spec.svg" alt="spec">
                         </div>
                         <div class="feature-content">
                             <h4>Специалисты</h4>
@@ -195,10 +201,10 @@
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <!-- Signle Feature Box Start-->
-                    <div class="single-feature-box" style="background-image: url(images/feature-three.jpg);">
+                    <div class="single-feature-box">
                         <div class="feature-icon">
                             <div class="feature-icon">
-                                <img src="images/document.svg" alt="doc">
+                                <img data-src="images/document.svg" alt="doc">
                             </div>
                         </div>
                         <div class="feature-content">
@@ -225,7 +231,7 @@
                         <div class="action-area">
                             <div class="media">
                                 <div class="item-icon">
-                                    <img src="images/phone.svg" alt="phone">
+                                    <img data-src="images/phone.svg" alt="phone">
                                 </div>
                                 <div class="media-body space-md">
                                     <div class="item-number">8 (343) 372 05 08</div>
@@ -237,8 +243,8 @@
                 <div class="col-xl-6 col-12">
                     <div class="about-box-img">
                         <div class="item-img">
-                            <div class="main-img"> <img src="http://via.placeholder.com/430x490/000/fff" alt=""> </div>
-                            <div class="sub-img d-none d-md-block"> <img src="http://via.placeholder.com/260x250/000/fff" alt=""> </div>
+                            <div class="main-img"> <img data-src="http://via.placeholder.com/430x490/000/fff" alt=""> </div>
+                            <div class="sub-img d-none d-md-block"> <img data-src="http://via.placeholder.com/260x250/000/fff" alt=""> </div>
                         </div>
                     </div>
                 </div>
@@ -300,7 +306,7 @@
                     <div class="single-service-sec">
                         <div class="icon-box-wrapper">
                             <div class="icon-wrapper">
-                                <a class="icon icon-type icon-default"><img src="images/truba.svg" alt="truba"></a>
+                                <a class="icon icon-type icon-default"><img data-src="images/truba.svg" alt="truba"></a>
                             </div>
                             <div class="icon-text">
                                 <h5 class="icon-box-title">Гидродинамическая промывка трубопроводов</h5>
@@ -317,7 +323,7 @@
                     <div class="single-service-sec">
                         <div class="icon-box-wrapper">
                             <div class="icon-wrapper">
-                                <a class="icon icon-type icon-default"><img src="images/truba.svg" alt="truba"></a>
+                                <a class="icon icon-type icon-default"><img data-src="images/truba.svg" alt="truba"></a>
                             </div>
                             <div class="icon-text">
                                 <h5 class="icon-box-title">Гидродинамическая промывка трубопроводов</h5>
@@ -334,7 +340,7 @@
                     <div class="single-service-sec">
                         <div class="icon-box-wrapper">
                             <div class="icon-wrapper">
-                                <a class="icon icon-type icon-default"><img src="images/truba.svg" alt="truba"></a>
+                                <a class="icon icon-type icon-default"><img data-src="images/truba.svg" alt="truba"></a>
                             </div>
                             <div class="icon-text">
                                 <h5 class="icon-box-title">Гидродинамическая промывка трубопроводов</h5>
@@ -351,7 +357,7 @@
                     <div class="single-service-sec">
                         <div class="icon-box-wrapper">
                             <div class="icon-wrapper">
-                                <a class="icon icon-type  icon-default"><img src="images/truba.svg" alt="truba"></a>
+                                <a class="icon icon-type  icon-default"><img data-src="images/truba.svg" alt="truba"></a>
                             </div>
                             <div class="icon-text">
                                 <h5 class="icon-box-title">Гидродинамическая промывка трубопроводов</h5>
@@ -368,7 +374,7 @@
                     <div class="single-service-sec">
                         <div class="icon-box-wrapper">
                             <div class="icon-wrapper">
-                                <a class="icon icon-type  icon-default"><img src="images/truba.svg" alt="truba"></a>
+                                <a class="icon icon-type  icon-default"><img data-src="images/truba.svg" alt="truba"></a>
                             </div>
                             <div class="icon-text">
                                 <h5 class="icon-box-title">Гидродинамическая промывка трубопроводов</h5>
@@ -385,7 +391,7 @@
                     <div class="single-service-sec">
                         <div class="icon-box-wrapper">
                             <div class="icon-wrapper">
-                                <a class="icon icon-type  icon-default"><img src="images/truba.svg" alt="truba"></a>
+                                <a class="icon icon-type  icon-default"><img data-src="images/truba.svg" alt="truba"></a>
                             </div>
                             <div class="icon-text">
                                 <h5 class="icon-box-title">Гидродинамическая промывка трубопроводов</h5>
@@ -415,7 +421,7 @@
                     <div class="my-gallery">
                         <div class="gallery-container masonry-gallery">
                             <div class="item office">
-                                <div class="portfolio-item"> <img src="http://via.placeholder.com/600x400/000/fff" alt="">
+                                <div class="portfolio-item"> <img data-src="http://via.placeholder.com/600x400/000/fff" alt="">
                                     <div class="portfolio-overlay">
                                         <ul>
                                             <li> <a href="http://via.placeholder.com/600x400/000/fff" class="html5lightbox" data-group="mygroup" data-thumbnail="http://via.placeholder.com/600x400/000/fff" title="Project 1"><i class="fas fa-search"></i></a>                                                </li>
@@ -428,7 +434,7 @@
                                 </div>
                             </div>
                             <div class="item home">
-                                <div class="portfolio-item"> <img src="http://via.placeholder.com/600x400/000/fff" alt="">
+                                <div class="portfolio-item"> <img data-src="http://via.placeholder.com/600x400/000/fff" alt="">
                                     <div class="portfolio-overlay">
                                         <ul>
                                             <li> <a href="http://via.placeholder.com/600x400/000/fff" class="html5lightbox" data-group="mygroup" data-thumbnail="http://via.placeholder.com/600x400/000/fff" title="Project 2"><i class="fas fa-search"></i></a>                                                </li>
@@ -441,7 +447,7 @@
                                 </div>
                             </div>
                             <div class="item carpet office">
-                                <div class="portfolio-item"> <img src="http://via.placeholder.com/600x400/000/fff" alt="">
+                                <div class="portfolio-item"> <img data-src="http://via.placeholder.com/600x400/000/fff" alt="">
                                     <div class="portfolio-overlay">
                                         <ul>
                                             <li> <a href="http://via.placeholder.com/600x400/000/fff" class="html5lightbox" data-group="mygroup" data-thumbnail="http://via.placeholder.com/600x400/000/fff" title="Project 3"><i class="fas fa-search"></i></a>                                                </li>
@@ -454,7 +460,7 @@
                                 </div>
                             </div>
                             <div class="item window home">
-                                <div class="portfolio-item"> <img src="http://via.placeholder.com/600x400/000/fff" alt="">
+                                <div class="portfolio-item"> <img data-src="http://via.placeholder.com/600x400/000/fff" alt="">
                                     <div class="portfolio-overlay">
                                         <ul>
                                             <li> <a href="http://via.placeholder.com/600x400/000/fff" class="html5lightbox" data-group="mygroup" data-thumbnail="http://via.placeholder.com/600x400/000/fff" title="Project 4"><i class="fas fa-search"></i></a>                                                </li>
@@ -467,7 +473,7 @@
                                 </div>
                             </div>
                             <div class="item carpet window">
-                                <div class="portfolio-item"> <img src="http://via.placeholder.com/600x400/000/fff" alt="">
+                                <div class="portfolio-item"> <img data-src="http://via.placeholder.com/600x400/000/fff" alt="">
                                     <div class="portfolio-overlay">
                                         <ul>
                                             <li> <a href="http://via.placeholder.com/600x400/000/fff" class="html5lightbox" data-group="mygroup" data-thumbnail="http://via.placeholder.com/600x400/000/fff" title="Project 5"><i class="fas fa-search"></i></a>                                                </li>
@@ -480,7 +486,7 @@
                                 </div>
                             </div>
                             <div class="item carpet window">
-                                <div class="portfolio-item"> <img src="http://via.placeholder.com/600x400/000/fff" alt="">
+                                <div class="portfolio-item"> <img data-src="http://via.placeholder.com/600x400/000/fff" alt="">
                                     <div class="portfolio-overlay">
                                         <ul>
                                             <li> <a href="http://via.placeholder.com/600x400/000/fff" class="html5lightbox" data-group="mygroup" data-thumbnail="http://via.placeholder.com/600x400/000/fff" title="Project 6"><i class="fas fa-search"></i></a>                                                </li>
@@ -509,11 +515,11 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
                     <div class="partner_wrap">
-                        <img src="images/kamaz.png" alt="kamaz">
-                        <img src="images/kamaz.png" alt="kamaz">
-                        <img src="images/kamaz.png" alt="kamaz">
-                        <img src="images/kamaz.png" alt="kamaz">
-                        <img src="images/kamaz.png" alt="kamaz">
+                        <img data-src="images/kamaz.png" alt="kamaz">
+                        <img data-src="images/kamaz.png" alt="kamaz">
+                        <img data-src="images/kamaz.png" alt="kamaz">
+                        <img data-src="images/kamaz.png" alt="kamaz">
+                        <img data-src="images/kamaz.png" alt="kamaz">
                     </div>
                 </div>
             </div>
@@ -536,13 +542,13 @@
                                 <div class="rating"> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="far fa-star"></span> </div>
                                 <div class="quote fas fa-quote-right"></div>
                                 <div class="comment-icon">
-                                    <img src="images/coments.svg" alt="coments">
+                                    <img data-src="images/coments.svg" alt="coments">
                                 </div>
                                 <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
                             </div>
                             <div class="lower-content">
                                 <div class="lower-inner">
-                                    <div class="image"> <img src="http://via.placeholder.com/100x100/000/fff" alt="" /> </div>
+                                    <div class="image"> <img data-src="http://via.placeholder.com/100x100/000/fff" alt="" /> </div>
                                     <h3>Mark Laiman</h3>
                                     <div class="designation">Oklahoma City, United States</div>
                                 </div>
@@ -556,13 +562,13 @@
                                 <div class="rating"> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="far fa-star"></span> </div>
                                 <div class="quote fas fa-quote-right"></div>
                                 <div class="comment-icon">
-                                    <img src="images/coments.svg" alt="coments">
+                                    <img data-src="images/coments.svg" alt="coments">
                                 </div>
                                 <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
                             </div>
                             <div class="lower-content">
                                 <div class="lower-inner">
-                                    <div class="image"> <img src="http://via.placeholder.com/100x100/000/fff" alt="" /> </div>
+                                    <div class="image"> <img data-src="http://via.placeholder.com/100x100/000/fff" alt="" /> </div>
                                     <h3>Mark Laiman</h3>
                                     <div class="designation">Oklahoma City, United States</div>
                                 </div>
@@ -576,13 +582,13 @@
                                 <div class="rating"> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="far fa-star"></span> </div>
                                 <div class="quote fas fa-quote-right"></div>
                                 <div class="comment-icon">
-                                    <img src="images/coments.svg" alt="coments">
+                                    <img data-src="images/coments.svg" alt="coments">
                                 </div>
                                 <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
                             </div>
                             <div class="lower-content">
                                 <div class="lower-inner">
-                                    <div class="image"> <img src="http://via.placeholder.com/100x100/000/fff" alt="" /> </div>
+                                    <div class="image"> <img data-src="http://via.placeholder.com/100x100/000/fff" alt="" /> </div>
                                     <h3>Mark Laiman</h3>
                                     <div class="designation">Oklahoma City, United States</div>
                                 </div>
@@ -640,10 +646,10 @@
                     <div class="contact-panel mb-40 space">
                         <h6 class="contact__panel-title">Как нас найти?</h6>
                         <ul class="contact__panel-list list-unstyled">
-                            <li><img src="images/map_contact.svg" alt="icon"><span>620000, Россия,<br> Свердловская область,<br> г. Екатеринбург, ул.<br> Грибоедова, 34</span></li>
-                            <li><img src="images/clock_contact.svg" alt="icon"><span>ПН-ПТ: 08:00-17:00<br> СБ-ВС: Выходной</span></li>
-                            <li><img src="images/phone_contact.svg" alt="icon"><span>8 (343) 372 05 08</span></li>
-                            <li><img src="images/mail_contact.svg" alt="icon"><span>3720508@bk.ru</span></li>
+                            <li><img data-src="images/map_contact.svg" alt="icon"><span>620000, Россия,<br> Свердловская область,<br> г. Екатеринбург, ул.<br> Грибоедова, 34</span></li>
+                            <li><img data-src="images/clock_contact.svg" alt="icon"><span>ПН-ПТ: 08:00-17:00<br> СБ-ВС: Выходной</span></li>
+                            <li><img data-src="images/phone_contact.svg" alt="icon"><span>8 (343) 372 05 08</span></li>
+                            <li><img data-src="images/mail_contact.svg" alt="icon"><span>3720508@bk.ru</span></li>
                         </ul>
                     </div>
                 </div>
@@ -659,7 +665,7 @@
             <div class="row">
                 <div class="footer_wrap about-box-content">
                     <div class="logo_footer">
-                        <img src="images/logo-footer.svg" alt="logo">
+                        <img data-src="images/logo-footer.svg" alt="logo">
                     </div>
                     <div class="copy">
                         <p>© Copyright <span id="year"></span> XpertWash. Template Designed by <span class="color">SBTechnosoft</span>.</p>
@@ -667,7 +673,7 @@
                     <div class="action-area">
                         <div class="media">
                             <div class="item-icon">
-                                <img src="images/phone.svg" alt="phone">
+                                <img data-src="images/phone.svg" alt="phone">
                             </div>
                             <div class="media-body space-md">
                                 <div class="item-number">8 (343) 372 05 08</div>
@@ -716,9 +722,16 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
-    <!-- <script src="js/html5lightbox.js"></script> -->
     <script src="js/magnific-popup.min.js"></script>
     <script src="js/custom.js"></script>
+    <script>
+        [].forEach.call(document.querySelectorAll('img[data-src]'),    function(img) {
+            img.setAttribute('src', img.getAttribute('data-src'));
+            img.onload = function() {
+                img.removeAttribute('data-src');
+            };
+        });
+    </script>
 </body>
 
 </html>
